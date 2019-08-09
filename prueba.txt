@@ -1,1 +1,18 @@
 uno
+
+este archivo no hacia commit por que salia un error de email no configurado.
+intente git config --global user.mail "nanglesc@gmail.com"
+a pesar de ello no funcionaba
+en el repositorio instancie la interface GIT GUI la cual mediante la el menú edit->options le asigne el correo nanglesc@gmail.com
+luego me fui a git bash en donde ejecute git config -l
+y recien ahi pude visualizar la variable user.email=nanglescq@gmail.com
+antes solo veía user.mail=nanglesc@gmail.com -> eh ahí mi error
+luego de ello
+pude hacer un git commit -m "cambios"
+y luego pude realizar
+git push origin master
+lo cual actualizó mi archivo prueba.txt a mi reporsitorio en git
+ahora voy a hacer un commit dessde github
+luego haré
+git pull origin master
+donde espero ver todo lo que he escrito aqui.
